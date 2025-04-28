@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#tarjeta-perfil{
+    background-color: #f2ecf8;
+    width: 600px;
+    height: 400px;
+}
+aside{
+    width: 300px;
+    height: 400px;
+    background-color: chartreuse;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.contenedor-padre{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#solicitudes-conexiones, #tus-conexiones{
+    background-color: chocolate;
+    width: 100%;
+}
+.cont-img{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.cont-img img{
+    width: 100px;
+    height: 100px;
+    background-color: #b4a8bf;
+    border: 5px solid #7826c5(7, 7, 7);
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+}
+ .info-usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 50px;
+}
+
+.encabezado-solicitudes{
+    display: flex;
+}
+.solicitud-conexion, .info-usuario-conexion, .controles{
+    display: flex;
+    align-items: center;
+}
+.info-usuario-conexion img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #7826c5;
+}

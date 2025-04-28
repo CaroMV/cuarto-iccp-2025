@@ -1,0 +1,22 @@
+img {
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px ;
+}
+h1{
+    text-align: center;
+}
+section{
+    margin-bottom: 20px;
+}
+.seccion3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.seccion2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+

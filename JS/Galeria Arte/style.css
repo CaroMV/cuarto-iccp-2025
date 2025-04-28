@@ -1,0 +1,69 @@
+/*NORMALIZACION DE ESTILOS*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f1ed;
+}
+
+header{
+    color: white;
+    background-color: #4a3f35;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#buscar{
+    width: 500px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#super-boton{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #d9c7b8;
+}
+#super-boton:hover{
+    background-color: crimson;
+}
+
+main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contenedor-imagen{
+    background-color: white;
+    border-radius: 10px;
+    width: 420px;
+    padding: 10px;
+    box-shadow: #4a3f35 3px 3px 3px;
+}
+
+.imagenes{
+    width: 400px;
+}
+#imagen{
+    height: 400px;
+    background-image: url(imgs/campo-de-trigo-con-cipreses.png);
+    background-size:cover;
+}
+
+#imagen:hover{
+    background-image: url(imgs/noche-estrellada-sobre-el-ródano.png);
+}
+
+
+button{
+    width: 100px;
+    height: 20px;
+    background-color: #d9c7b8;
+}

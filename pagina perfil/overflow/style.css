@@ -1,0 +1,19 @@
+*{
+    /* overflow: hidden; */
+}
+
+.navbar{
+    background-color: darkolivegreen;
+}
+
+ul{
+    overflow: hidden;
+}
+
+.bloque{
+    height: 150px;
+    width: 100px;
+    background-color: darkkhaki;
+    overflow: scroll;
+
+}

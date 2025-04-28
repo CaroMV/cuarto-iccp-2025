@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ header{
+   background-color: blueviolet;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   height: 80px;
+ }
+#buscar{
+   width: 500px;
+   height: 30px;
+   border-radius: 15px;
+}
+h1{
+   color: white;
+}
+main{
+   display: flex;
+   padding: 20px 100px;
+}
+#izquierda{
+   width: 70%;
+}
+.cursos{
+   border-radius: 10px;
+   border: 1px black solid;
+   background-color: aquamarine;
+   width: 400px;
+   height: 200px;
+   margin-bottom: 10px;
+   padding: 10px;
+}
+#derecha{
+   width: 30%;
+}
+.info{
+   padding: 20px;
+   background-color: antiquewhite;
+}
